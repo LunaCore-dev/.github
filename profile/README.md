@@ -22,6 +22,7 @@ public.
       with a public Java API for your own NPCs.
       <br><br>
       <a href="https://lunacore.dev/LunaNPC"><b>Download</b></a> ·
+      <a href="https://github.com/LunaCore-dev/LunaNPC">Source</a> ·
       <a href="https://api.lunacore.dev/LunaNPC">API reference</a> ·
       <a href="https://github.com/raeydzone/lunanpc-examples">Examples</a> ·
       <a href="https://lunacore.dev/LunaNPC/reports">Reports</a>
@@ -42,6 +43,7 @@ More products are on the way; each gets its own page on [lunacore.dev](https://l
 
 ## License
 
-LunaCore products are free to use, including on monetised servers. They are **not open
-source**: you may change them for yourself, but publishing a changed version, a spin-off or a paid copy needs our written permission. Ask for
+LunaCore products are free to use, including on monetised servers, and their source is public
+to read. They are **source-available, not open source**: you may change them for yourself and
+share official releases unchanged, but publishing a changed version, a spin-off or a paid copy needs our written permission. Ask for
 one at [lunacore.dev/support](https://lunacore.dev/support).
