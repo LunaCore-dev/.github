@@ -1,0 +1,41 @@
+name: Bug report
+description: Something does not work as it should.
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Every issue here is also a report on [lunacore.dev](https://lunacore.dev/reports), where the team triages it and closes it with the version that fixes it. You can file reports there or in our Discord too.
+
+        **Security problems are never public issues.** Report them privately at https://lunacore.dev/support.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it?
+      description: The steps that make it happen, as exact as you can.
+      placeholder: |
+        1. Spawn an NPC with ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versions
+      description: The product version, the Minecraft version and the loader version.
+      placeholder: LunaNPC 0.2.0, Minecraft 26.3, Fabric Loader 0.17.2
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Crash reports, latest.log or screenshots. Paste text; it is formatted for you.
+      render: text

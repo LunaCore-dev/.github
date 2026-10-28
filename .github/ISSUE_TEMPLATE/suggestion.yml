@@ -1,0 +1,27 @@
+name: Suggestion
+description: An idea or a feature you would like.
+labels: [suggestion, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Every issue here is also a report on [lunacore.dev](https://lunacore.dev/reports), where the team decides on it and names the version that ships it.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should exist or work differently?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: What would you build or do with it? Who else gains from it?
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Examples, sketches, or how other projects do it.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://lunacore.dev/support
+    about: Report it privately in a support ticket, never as a public issue.
+  - name: Question or help
+    url: https://discord.lunacore.dev
+    about: Ask in our Discord, or ask LunaAI at https://lunacore.dev/ai.
